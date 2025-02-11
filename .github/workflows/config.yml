@@ -25,7 +25,7 @@ jobs:
 
         - name: build docker image
           run: |
-            docker build -t erickpambid/mindex-app:latest . 
+            docker build -t erickpambid/index-app:latest . 
 
         - name: push to docker hub
           run: |
